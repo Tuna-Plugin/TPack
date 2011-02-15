@@ -1,0 +1,31 @@
+TPack - Multi-Tool/Fun Pack:
+Version: v1.0
+
+TPack (stands for Tuna's Pack) is a multi-tool add-on package. It contains mods for selecting cuboids, modifying the server time, giving items by name and quantity instead of data values,
+clearing player inventory, and emergency shelter in case of creeper incursions!
+
+Features:
+
+    * "/boomstick" enables boomstick mode. When player has wood stick equipped can destroy blocks very rapidly. Great tool for clearing blocks. Call "/boomstick" again to disable.
+    * "/cuboid" enables cuboid mode. When player has wood shovel equipped can hit block to set points 1 and 2 sequentially.
+    * Working on adding the ability to delete/fill cuboid
+    * "/listcuboid" lists the coordinates of the two points of the cuboid in <x,y,z> format
+    * "/time #" where # is the number to increase the current time by. A typical value for number is 5000-7000.
+    * "/time?" tells the player the current time
+    * Time is in the format of (current time * 1000)
+    * "/." is an emergency "Oh Snap!" button. It spawns an instant shelter around the player complete with torches.
+    * Working on adding functionality to specify the size of the shelter.
+    * "/give material quantity" where material is the name of the material in "items.txt" and quantity is the number you want. If quantity is not specified it defaults to 1.
+    * items.txt file must be in the same directory as the craft bukkit .jar file. Names in the file can be replaced with whatever you wish as long as the number matches the item found on the Minecraft Wiki Data values page (http://www.minecraftwiki.net/wiki/Data_values)
+    * "/clearinv" empties the player's entire inventory.
+
+Installation:
+
+    * Put "TPack.jar" in the plugins directory under your root directory
+    * "items.txt" must be in the root server directory with your craft bukkit jar file
+
+
+Changelog:
+Version 1.0
+
+    * First release, description and download location are above. Please post bugs/questions/comments in the replies and I will be happy to oblige :)
